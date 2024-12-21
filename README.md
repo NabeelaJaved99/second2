@@ -22,16 +22,8 @@ student->averageMarks = totalMarks / 5;
 // Function to assign grades based on average marks 
 void assignGrades(struct Student *student)  
 { 
-if (student->averageMarks >= 90)  
-{ 
-Data Structure Laboratory Manual 
-Department of Computer Science and Engineering, Dayananda Sagar University, Bengaluru, 
-Karnataka. 
- 
-  
-Data Structure Laboratory Manual 
-Department of Computer Science and Engineering, Dayananda Sagar University, Bengaluru, 
-Karnataka. 
+if (student->averageMarks >= 90)
+{
         student->grade = 'A'; 
     }  
     else if (student->averageMarks >= 80)  
